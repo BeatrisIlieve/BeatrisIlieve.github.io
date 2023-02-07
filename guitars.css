@@ -18,7 +18,7 @@ audio::-webkit-media-controls-panel {
 .audio-container {
     display: flex;
     justify-content: center;
-    align-items: center 
+    align-items: center;
 }
 
 .center {
@@ -26,6 +26,7 @@ audio::-webkit-media-controls-panel {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -40px;
+    justify-content: center;
     align-items: center;
 }
 
@@ -117,11 +118,5 @@ span {
 
 body {
     background-color: black;
-    color: #F0E68C;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.5em;
-    margin-left: 15px;
-    margin-right: 15px;
     border: 2px solid #DAA520;
     }
